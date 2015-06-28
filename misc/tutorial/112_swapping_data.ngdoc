@@ -132,7 +132,8 @@ You can swap out data in the grid by simply providing a different reference.
 
       $scope.gridOpts = {
         columnDefs: columnDefs1,
-        data: data1
+        data: data1,
+        fastWatch: true
       };
     }]);
   </file>
